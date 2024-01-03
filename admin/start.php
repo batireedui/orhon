@@ -7,9 +7,8 @@ const DOMAIN = '';
 const DB_HOST = 'localhost';
 const DB_NAME = 'orhon';
 const DB_USER = 'root';
-const DB_PASSWORD = 'No200800';
-// Бичиглэл богино
-// Өгөгдлийн сантай ажиллаж буй үйлдэл бүрийг лог
+const DB_PASSWORD = '';
+
 
 @$con = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
 

@@ -63,7 +63,7 @@ if (isset($_GET['huvaarie']) != "" && isset($_GET['edate']) != "") {
                     </div>
                     <div class="col-md-3">
                         <div class="form-group">
-                            <input type="date" class="form-control" name="edate" value="<?= date(unuudur()) ?>">
+                            <input type="date" class="form-control" name="edate" value="<?= date("Y-m-d") ?>">
                         </div>
                     </div>
                     <div class="col-md-2">

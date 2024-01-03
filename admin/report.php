@@ -55,12 +55,12 @@ if (isset($_GET['movie']) != "" && isset($_GET['sdate']) != "" && isset($_GET['e
                     </div>
                     <div class="col-md-2">
                         <div class="form-group">
-                            <input type="date" class="form-control" name="sdate" value="<?= date(unuudur()) ?>" />
+                            <input type="date" class="form-control" name="sdate" value="<?= date("Y-m-d") ?>" />
                         </div>
                     </div>
                     <div class="col-md-2">
                         <div class="form-group">
-                            <input type="date" class="form-control" name="edate" value="<?= date(unuudur()) ?>">
+                            <input type="date" class="form-control" name="edate" value="<?= date("Y-m-d") ?>">
                         </div>
                     </div>
                     <div class="col-md-2">
