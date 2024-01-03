@@ -30,7 +30,7 @@ if (!isset($_COOKIE["cookie_hid"])) {
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="bt.css">
         <link rel="stylesheet" href="main.css" />
-        <title>Кино сонгох</title>
+        <title>Үзвэр сонгох</title>
     </head>
 
     <body>
@@ -50,7 +50,7 @@ if (!isset($_COOKIE["cookie_hid"])) {
                             <form action="action.php" method="post">
                                 <div class="row">
                                     <div class="col-6">
-                                        Кино: <span class="btext"><?= $_COOKIE["cookie_moviename"] ?></span><br>
+                                        Үзвэр: <span class="btext"><?= $_COOKIE["cookie_moviename"] ?></span><br>
                                         Огноо: <span class="btext"><?php echo $_COOKIE["cookie_ognoo"] . ' ' . $_COOKIE["cookie_movie_time"] ?></span>
                                     </div>
                                     <div class="col-6">
@@ -116,7 +116,7 @@ if (!isset($_COOKIE["cookie_hid"])) {
             <div class="row d-flex justify-content-center">
                 <div class="col-12">
                     <div class="titledivs">
-                        <div class="name">Кино: <span><?= $_COOKIE["cookie_moviename"] ?></span></div>
+                        <div class="name">Үзвэр: <span><?= $_COOKIE["cookie_moviename"] ?></span></div>
                         <div class="name"><span><?php echo $_COOKIE["cookie_ognoo"] . ' ' . $_COOKIE["cookie_movie_time"] ?></span></div>
                         <div class="name">Хүүхэд: <span><?= $_COOKIE["cookie_huuhed"] ?></span></div>
                         <div class="name">Том хүн: <span><?= $_COOKIE["cookie_tom"] ?></span></div>

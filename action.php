@@ -22,7 +22,7 @@ for ($i = 0; $i < count($seatObj); $i++) {
         );
         $el .= "<div style='padding: 15px; margin-bottom: 25px'>
                     <div class='tit'>ОРХОН КИНО ТЕАТР</div>
-                    <div class='lis'>Кино: <span>" . $_COOKIE['cookie_moviename'] . " </span></div>
+                    <div class='lis'>Үзвэр: <span>" . $_COOKIE['cookie_moviename'] . " </span></div>
                     <div class='lis'>Хуваарь: <span>" . $_COOKIE['cookie_ognoo'] . " " . $_COOKIE['cookie_movie_time'] . "</span></div>
                     <div class='lis'>Төрөл: <span>Том хүн:</span></div>
                     <div class='lis'>Тасалбар үнэ: <span>$taxT</span></div>
@@ -39,7 +39,7 @@ for ($i = 0; $i < count($seatObj); $i++) {
         );
         $el .= "<div style='padding: 15px; margin-bottom: 25px'>
                     <div class='tit'>ОРХОН КИНО ТЕАТР</div>
-                    <div class='lis'>Кино: <span>" . $_COOKIE['cookie_moviename'] . " </span></div>
+                    <div class='lis'>Үзвэр: <span>" . $_COOKIE['cookie_moviename'] . " </span></div>
                     <div class='lis'>Хуваарь: <span>" . $_COOKIE['cookie_ognoo'] . " " . $_COOKIE['cookie_movie_time'] . "</span></div>
                     <div class='lis'>Төрөл: <span>Хүүхэд:</span></div>
                     <div class='lis'>Тасалбар үнэ: <span>$taxH</span></div>

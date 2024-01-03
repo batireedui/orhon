@@ -32,7 +32,7 @@
             <i class="fas fa-times p-3 cursor-pointer text-secondary opacity-5 position-absolute end-0 top-0 d-none d-xl-none" aria-hidden="true" id="iconSidenav"></i>
             <a class="navbar-brand m-0" href="#" target="_blank">
                 <img src="../assets/img/logo-ct.png" class="navbar-brand-img h-100" alt="main_logo">
-                <span class="ms-1 font-weight-bold">Орхон кино театр</span>
+                <span class="ms-1 font-weight-bold">Орхон үзвэр театр</span>
             </a>
         </div>
         <hr class="horizontal dark mt-0">
@@ -51,7 +51,7 @@
                         <div class="icon icon-shape icon-sm shadow border-radius-md bg-white text-center me-2 d-flex align-items-center justify-content-center">
                             <i class="ni ni-camera-compact <?php echo $page == "movie" ? "text-light" : "text-dark"?>"></i>
                         </div>
-                        <span class="nav-link-text ms-1">Кино</span>
+                        <span class="nav-link-text ms-1">Үзвэр</span>
                     </a>
                 </li>
                 <li class="nav-item">
@@ -89,7 +89,7 @@
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
                         <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark" href="javascript:;">Захиалгын систем</a></li>
                     </ol>
-                    <h6 class="font-weight-bolder mb-0">Кино театрын систем</h6>
+                    <h6 class="font-weight-bolder mb-0">Үзвэр театрын систем</h6>
                 </nav>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">

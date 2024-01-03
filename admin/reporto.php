@@ -80,7 +80,7 @@ if (isset($_GET['huvaarie']) != "" && isset($_GET['edate']) != "") {
             </form>
             <div class="card mb-4" id="parea">
                 <div class="card-header pb-0">
-                    <h6><?php echo $get ? $mnamesum . "  Огноо: " . $_GET['edate'] . " Нийт: " . $sum . "₮" : "Кино болон эхний, сүүлийн огноонуудыг сонгож харна" ?></h6>
+                    <h6><?php echo $get ? $mnamesum . "  Огноо: " . $_GET['edate'] . " Нийт: " . $sum . "₮" : "Үзвэр болон эхний, сүүлийн огноонуудыг сонгож харна" ?></h6>
                 </div>
                 <div class="card-body px-0 pt-0 pb-2">
                     <div class="table-responsive p-0">

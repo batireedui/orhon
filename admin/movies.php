@@ -19,15 +19,15 @@ _selectNoParam(
         <div class="col-12">
             <div class="card mb-4">
                 <div class="card-header pb-0">
-                    <h6>Киноны жагсаалт</h6>
+                    <h6>Үзвэрийн жагсаалт</h6>
                     <div>
-                        <button type="button" class="btn bg-gradient-info btn-block" data-bs-toggle="modal" data-bs-target="#modal-form">Кино нэмэх</button>
+                        <button type="button" class="btn bg-gradient-info btn-block" data-bs-toggle="modal" data-bs-target="#modal-form">Үзвэр нэмэх</button>
 
                         <div class="modal fade" id="modal-form" tabindex="-1" role="dialog" aria-labelledby="modal-form" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h6 class="modal-title" id="modal-title-notification">Кино нэмэх</h6>
+                                        <h6 class="modal-title" id="modal-title-notification">Үзвэр нэмэх</h6>
                                         <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">×</span>
                                         </button>
@@ -35,13 +35,13 @@ _selectNoParam(
                                     <div class="modal-body">
                                         <div class="card card-plain">
                                             <div class="card-header pb-0 text-left">
-                                                <h3 class="font-weight-bolder text-info text-gradient">Шинэ кино</h3>
-                                                <p class="mb-0">Шинээр гарах киноны мэдээллийг оруулна уу!</p>
+                                                <h3 class="font-weight-bolder text-info text-gradient">Шинэ үзвэр</h3>
+                                                <p class="mb-0">Шинээр гарах үзвэрны мэдээллийг оруулна уу!</p>
                                             </div>
                                             <div class="card-body">
                                                 <form method="POST" action="action.php">
                                                     <div class="form-group">
-                                                        <label for="recipient-name" class="col-form-label">Киноны нэр:</label>
+                                                        <label for="recipient-name" class="col-form-label">Үзвэрийн нэр:</label>
                                                         <input type="text" class="form-control" name="mname" required>
                                                     </div>
                                                     <div class="form-group">
@@ -67,7 +67,7 @@ _selectNoParam(
                             <div class="modal-dialog modal-dialog-centered" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h6 class="modal-title" id="modal-title-notification">Кино нэмэх</h6>
+                                        <h6 class="modal-title" id="modal-title-notification">Үзвэр нэмэх</h6>
                                         <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
                                             <span aria-hidden="true">×</span>
                                         </button>
@@ -75,13 +75,13 @@ _selectNoParam(
                                     <div class="modal-body">
                                         <div class="card card-plain">
                                             <div class="card-header pb-0 text-left">
-                                                <h3 class="font-weight-bolder text-info text-gradient">Шинэ кино</h3>
-                                                <p class="mb-0">Шинээр гарах киноны мэдээллийг оруулна уу!</p>
+                                                <h3 class="font-weight-bolder text-info text-gradient">Шинэ үзвэр</h3>
+                                                <p class="mb-0">Шинээр гарах үзвэрны мэдээллийг оруулна уу!</p>
                                             </div>
                                             <div class="card-body">
                                                 <form method="POST" action="action.php">
                                                     <div class="form-group">
-                                                        <label for="recipient-name" class="col-form-label">Киноны нэр:</label>
+                                                        <label for="recipient-name" class="col-form-label">Үзвэрийн нэр:</label>
                                                         <input type="text" class="form-control" name="mname" id="mname" required>
                                                         <input type="text" class="form-control" name="mid" id="mid" style="display: none" required>
                                                     </div>
@@ -111,7 +111,7 @@ _selectNoParam(
                             <thead>
                                 <tr>
                                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">#</th>
-                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Киноны нэр</th>
+                                    <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Үзвэрийн нэр</th>
                                     <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Тайлбар</th>
                                     <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Төлөв</th>
                                     <th class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Огноо</th>

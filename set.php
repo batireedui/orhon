@@ -37,7 +37,7 @@ if (isset($_SESSION['userid']) != null) {
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="stylesheet" href="bt.css" />
       <link rel="stylesheet" href="main.css" />
-      <title>Кино сонгох</title>
+      <title>Үзвэр сонгох</title>
     </head>
 
     <body>
@@ -45,7 +45,7 @@ if (isset($_SESSION['userid']) != null) {
         <div class="row d-flex justify-content-center">
           <div class="col-12">
             <div class="titledivs">
-              <div class="name">Кино: <span><?= $_COOKIE["cookie_moviename"] ?></span></div>
+              <div class="name">Үзвэр: <span><?= $_COOKIE["cookie_moviename"] ?></span></div>
               <div class="name">Огноо: <span><?php echo $_COOKIE["cookie_ognoo"] ?></span></div>
               <div class="name">Цаг: <span><?php echo $_COOKIE["cookie_movie_time"] ?></span></div>
               <div class="name">Хүүхэд: <span><?= $_COOKIE["cookie_huuhed"] ?></span></div>

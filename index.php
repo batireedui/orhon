@@ -27,9 +27,9 @@ _selectNoParam(
                     <h3 style="text-align: center;">ХУВААРЬ СОНГОХ</h3>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label">Кино сонгох</label>
+                    <label class="form-label">Үзвэр сонгох</label>
                     <select id="movie" class="form-control" name="mid" onchange="movieChoosed()">
-                        <option value='0'>Киногоо эндээс сонго</option>
+                        <option value='0'>Үзвэргоо эндээс сонго</option>
                         <?php while (_fetch($stmt)) {
                             echo "<option value='$movieid'>$moviename</option>";
                         }
